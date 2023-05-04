@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>분수</title>
+  <script src="./js/lib/jquery.min.js"></script>
+</head>
+<style>
+  
+  body {
+    font-weight: 700;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+  }
+
+  body #wrap {
+    text-align: center;
+    width: 1000px;
+    height: 700px;
+  }
+
+  .fraction{display: inline-block;line-height:1em;vertical-align: middle;padding:0 5px 8px 5px;text-align: center;}
+  .fraction span{display: inline-block;vertical-align: middle;font-family:'NotoSerif',serif;}
+  .fraction>span:first-of-type{margin-top:-10px;}
+  .fraction>span:last-of-type{border-top:2px solid #000;width: 100%;} /* 중간선 : 마지막 span에 상단 선 생성 */
+  
+</style>
+<body>
+  <div id="wrap">
+    <h1>분수 만들기</h1>
+    <span class="fraction fraction-auto">1/4</span>
+    <span class="fraction fraction-auto">3/4</span>
+    <span class="fraction fraction-auto">2/9</span>
+    <span class="fraction fraction-auto">12/8</span>
+    <span class="fraction fraction-auto">16/4</span>
+
+  </div>
+
+  <script>
+    // each 반복문을 사용하는 이유 : fraction-auto 클래스의 index를 기준으로 반복하기 위함
+    $('.fraction-auto').each(function(){
+      var ftext = $(this).text();
+      var f_arr = ftext.split('/');
+      var write_text = "<span>"+f_arr[0]+"</span><br/><span>"+f_arr[1]+"</span>"
+      $(this).html(write_text);
+    });
+
+  </script>
+</body>
+</html>
