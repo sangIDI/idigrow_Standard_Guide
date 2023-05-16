@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="ko">
+<head>
+<meta charset="utf-8" />
+<meta content="width=1363,height=952" name="viewport" />
+<title></title>
+<script src="../../../../js/jquery.min.js"></script>
+<script src="../../../../js/jquery-ui.min.js"></script>
+<script src="../../../../js/jquery.ui.touch-punch.min.js"></script>
+<script src="../../../../js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="../../../../css/common.css" />
+<link rel="stylesheet" type="text/css" href="../../../../css/video-js.css" />
+<link rel="stylesheet" type="text/css" href="../../../../css/science.css" />
+</head>
+<body>
+
+<div id="wrap" class="science-5-2">
+    <div class="wrap-inner">
+        <header id="hd">
+            <h1 class="video-title"><i class="icon-video"></i><span>도움 영상</span></h1>
+            <div id="ebook_page_link" class="page-num">
+                <button><i class="icon-paging"></i>『과학』23쪽</button>
+            </div>
+        </header>
+        <div id="ct">
+
+<!-- 페이지 시작 -->
+<div class="content">
+    <video data-dtext_index="dtext_cls_video" controls="controls" poster="media/poster/522_02_h1.jpg" class="video-js" webkit-playsinline="" playsinline="">
+        <source src="media/522_02_h1.mp4" type="video/mp4">
+    </video>
+</div>
+<!-- 페이지 끝 --> 
+    
+        </div>
+    </div>
+</div>
+
+<script src="../../../../js/jquery.mCustomScrollbar.concat.min.js"></script>
+<script src="../../../../js/swiper.min.js"></script>
+<script src="../../../../js/video.js"></script> 
+<script src="../../../../js/movepage.js"></script>
+<script>
+    var Button = videojs.getComponent('Button');
+    
+    // 정지버튼
+    var stopButton = videojs.extend(Button, {
+        constructor: function() {
+            Button.apply(this, arguments);
+            this.controlText('정지');
+            this.addClass('vjs-stop-control');
+        },
+        handleClick: function() {
+            this.player_.pause();
+            this.player_.currentTime(0);
+            //this.player_.posterImage.show();
+            this.player_.hasStarted(false);
+        }
+    });
+    videojs.registerComponent('stopButton', stopButton);
+    
+    // 토글버튼
+    var ControlToggle  = videojs.extend(Button, {
+        constructor: function() {
+            Button.apply(this, arguments);
+            this.controlText('숨기기');
+            this.addClass('vjs-toggle-control');
+            this.showing = false;
+        },
+        handleClick: function() {
+            this.player_.toggleClass('vjs-toggle-inactive');
+            (!this.showing) ? this.controlText('펼치기') : this.controlText('숨기기');
+            this.showing = !this.showing;
+        }
+    });
+    videojs.registerComponent('controlToggle', ControlToggle);
+    
+    
+    videojs(document.querySelector('.video-js'),{
+        controls: true,
+        width: 1234,
+        height: 694,
+        controlBar: {
+            volumePanel: {inline: false},
+            children: [
+                'playToggle',
+                'stopButton',
+                'progressControl',
+                'volumeMenuButton',
+                'currentTimeDisplay',
+                'durationDisplay',
+                'volumePanel',
+                'fullscreenToggle',
+                'controlToggle',
+                'remainingTimeDisplay'
+            ]
+        }
+    });
+</script>
+<script src="../../../../js/data.make.js"></script>
+<script src="../../../../js/common.js"></script>
+<script src="../../../../js/common.send.js"></script>
+<script src="../../../../js/common.receive.js"></script>
+</body>
+</html>

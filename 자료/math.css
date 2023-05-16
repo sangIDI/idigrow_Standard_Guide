@@ -1,0 +1,753 @@
+/* math */
+.font-serif{font-family:'NotoSerif',serif !important}
+.pa05{padding:5px !important;}
+.pv50{padding-left:50px  !important;padding-right: 50px  !important}
+.pv80{padding-left:80px  !important;padding-right: 80px  !important}
+.pv100{padding-left:100px  !important;padding-right: 100px  !important}
+.w100-bracket{min-width: 100px;display: inline-block;}
+.display-4 {font-weight: 700;}
+.opacity0{opacity:0}
+.position-absolute.tl-0{top:0;left:0;}
+.a-height{line-height: 1.8}
+.image-text{position:absolute !important;left:0;top:0;line-height:1.2em}
+sup {font-size: 60%; top:-0.7em}
+
+/* reset with bootstrap */
+/* p{text-align:unset}*/
+li{text-align:unset} 
+
+/* typhography */
+h2{ margin-bottom:30px; font-size:50px}
+.text-body{color:#36270b !important}
+
+/* 기본 박스 */
+.bx{overflow:visible; margin: 20px 0; border:4px solid #e6e6e9;}
+
+/* 뱃지 위에 있는 박스 형태 */
+.bx-badge-exp{position:relative;border-color: #d8d0c0; overflow: visible;padding-top:40px}
+.bx-badge-exp .badge-exp{position: absolute;left:20px;top:-35px}
+.bx-badge-exp.center .badge-exp{left:50%;transform: translateX(-50%);width:fit-content}
+.badge-exp-flex{display: flex;align-items:flex-start;}
+.badge-exp-flex .badge-exp{margin-right: 10px;}
+.badge-exp-flex .short-answer-block{flex:1;margin-top:0;}
+
+/* List */
+.lst-ex>li{font-size:45px;}
+#hd h1.v2{background: url(../img/math/hd-line2.png) no-repeat 0 0 / 100% 100% }
+.top-bar{padding:5px 8px;margin: 20px 0; background-color: #fff8ed; border-radius:25px 10px 10px 25px; text-align: justify;}
+/* 탭버튼 클릭 막기 */
+.top-bar .nav li {cursor:pointer}
+.top-bar .nav button {pointer-events: all;}
+.top-bar .nav button.active {pointer-events: none;}
+
+/* 단답형 */
+/* .short-answer-block{font-size:45px;} */
+.short-answer-block .after{text-align: justify;}
+.short-answer-block .after .badge-example{top:36px;}
+.short-answer.fs40 .before{font-size: 45px}
+.btn-answer span i.icon-answer{margin-right: 5px} 
+
+.interaction .wrap-inner .icon-folding { display: none;}
+
+/* 큰 괄호 */
+.display-2{vertical-align: sub;}
+
+/* 수학놀자/창의 프레임 */
+.math-frame{min-height: 590px;margin-top:50px;}
+.math-frame>div.tableset {display: table; width: 100%;height:400px;padding:0 60px;}
+.math-frame>div.tableset .table-cell {display: table-cell; vertical-align: middle;width: 100%} 
+.math-frame .section-num{margin: 0;}
+.math-frame .tb.fs35 tr>*{padding:5px !important;}
+.math-frame .tb.fs35 .short-answer *{line-height: 1.2}
+
+.frame3-1-1{background: url("../img/math/frame3-1-1.png") no-repeat;background-size:100% auto;} 
+.frame3-1-2{background: url("../img/math/frame3-1-2.png") no-repeat;background-size:100% auto;} 
+.frame3-1-3{background: url("../img/math/frame3-1-3.png") no-repeat;background-size:100% auto;}
+.frame3-1-4{background: url("../img/math/frame3-1-4.png") no-repeat;background-size:100% auto;}
+.frame3-1-5{background: url("../img/math/frame3-1-5.png") no-repeat;background-size:100% auto;}
+.frame3-1-6{background: url("../img/math/frame3-1-6.png") no-repeat;background-size:100% auto;}
+
+.frame3-2-1{background: url("../img/math/frame3-2-1.png") no-repeat;background-size:100% auto;}
+.frame3-2-2{background: url("../img/math/frame3-2-2.png") no-repeat;background-size:100% auto;}
+.frame3-2-3{background: url("../img/math/frame3-2-3.png") no-repeat;background-size:100% auto;}
+.frame3-2-4{background: url("../img/math/frame3-2-4.png") no-repeat;background-size:100% auto;}
+.frame3-2-5{background: url("../img/math/frame3-2-5.png") no-repeat;background-size:100% auto;}
+.frame3-2-6{background: url("../img/math/frame3-2-6.png") no-repeat;background-size:100% auto;}
+
+.frame4-1-1{background: url("../img/math/frame4-1-1.png") no-repeat;background-size:100% auto;}
+.frame4-1-2{background: url("../img/math/frame4-1-2.png") no-repeat;background-size:100% auto;}
+.frame4-1-3{background: url("../img/math/frame4-1-3.png") no-repeat;background-size:100% auto;}
+.frame4-1-4{background: url("../img/math/frame4-1-4.png") no-repeat;background-size:100% auto;}
+.frame4-1-5{background: url("../img/math/frame4-1-5.png") no-repeat;background-size:100% auto;}
+.frame4-1-6{background: url("../img/math/frame4-1-6.png") no-repeat;background-size:100% auto;}
+
+.frame4-2-1{background: url("../img/math/frame4-2-1.png") no-repeat;background-size:100% auto;}
+.frame4-2-2{background: url("../img/math/frame4-2-2.png") no-repeat;background-size:100% auto;}
+.frame4-2-3{background: url("../img/math/frame4-2-3.png") no-repeat;background-size:100% auto;}
+.frame4-2-4{background: url("../img/math/frame4-2-4.png") no-repeat;background-size:100% auto;}
+.frame4-2-5{background: url("../img/math/frame4-2-5.png") no-repeat;background-size:100% auto;}
+.frame4-2-6{background: url("../img/math/frame4-2-6.png") no-repeat;background-size:100% auto;}
+
+/* Icon */
+/* 타이틀 */
+.icon-act{width:101px; height:72px; background-image: url(../img/math/title/icon-act.png)}
+.icon-act2{width:84px; height:82px; background-image: url(../img/math/title/icon-act2.png)}
+.icon-comment{width:112px; height:107px; background-image: url(../img/math/title/icon-comment.png)}
+.icon-study{width:84px; height:82px; background-image: url(../img/math/title/icon-study.png)}
+.icon-finish{width:299px; height:103px; background-image: url(../img/math/title/icon-finish.png)}
+.icon-lets-act{width:120px; height:73px; background-image: url(../img/math/title/icon-lets-act.png)}
+.icon-lets-result{width:208px; height:72px; background-image: url(../img/math/title/icon-lets-result.png)}
+.icon-lets-result2{width:208px; height:72px; background-image: url(../img/math/title/icon-lets-result2.png)}
+.icon-lets-study{width:133px; height:72px; background-image: url(../img/math/title/icon-lets-study.png)}
+.icon-think{width:149px; height:66px; background-image: url(../img/math/title/icon-think.png)}
+.icon-self{width:230px; height:86px; background-image: url(../img/math/title/icon-self.png)}
+.icon-talk{width:178px; height:72px; background-image: url(../img/math/title/icon-talk.png)}
+.icon-funny{margin-top: -12px !important; width:174px; height:90px; background-image: url(../img/math/title/icon-funny.png)}
+.icon-story {width:153px; height:88px; background-image: url(../img/math/title/icon-story.png)}
+.icon-char{width:88px; height:87px; background-image: url(../img/math/title/icon-char.png)}
+.icon-ex{width:88px;height: 51px; background-image: url(../img/math/title/icon-ex.png)}
+
+.icon-act2{width:101px; height:72px}
+.icon-remember{width: 137px; height: 81px; background-image: url(../img/math/title/icon-remember.png);}
+.icon-remember2{position: relative; top:10px; left:4px; width: 244px; height: 60px; background-image: url(../img/math/title/icon-remember-1.png);}
+.icon-Sactvt{width: 116px; height: 80px; background-image: url(../img/math/title/t305.png);}
+.icon-Sactvt2{width: 90px; height: 80px; background-image: url(../img/math/title/t305-1.png);}
+.icon-plym{width: 104px; height: 83px; background-image: url(../img/math/title/t308.png);}
+.icon-plym2{width: 200px; height: 83px; background-image: url(../img/math/title/t308-1.png);}
+.icon-solve0{ width: 247px; height: 103px; background-image: url(../img/math/title/icon-solve.png);}
+.icon-solve{position: absolute; top:63px; left:-40px; width: 247px; height: 103px; background-image: url(../img/math/title/icon-solve.png);margin-top:-40px !important}
+.icon-solve+span{margin-left: 150px;line-height: 2.4em;}
+.icon-solve2{position: absolute; top:70px; left:15px;width: 220px; height: 83px; background-image: url(../img/math/title/icon-solve-1.png);margin-top:-40px !important}
+.icon-solve2+span{margin-left: 220px;line-height: 2.4em;}
+.icon-mthExp{position:relative;width: 122px; height: 83px; background-image: url(../img/math/title/t309.png);}
+.icon-mthExp2{position:relative;width: 122px; height: 83px; background-image: url(../img/math/title/t309-1.png);}
+.icon-mthExp b{position:absolute;top:37px;right:10px;font-size:24px;line-height: 1; color:#fff}
+.icon-fusion{position: absolute; top:63px; left:-40px;width: 216px; height: 103px; background-image: url(../img/math/title/icon-fusion.png);margin-top:-42px !important}
+.icon-fusion+span{margin-left: 160px;line-height: 2.4em;}
+.icon-fusion2{position: absolute; top:70px; left:15px;width: 220px; height: 83px; background-image: url(../img/math/title/icon-fusion-1.png);margin-top:-42px !important}
+.icon-fusion2+span{margin-left: 220px;line-height: 2.4em;}
+.icon-final{position:relative; top:3px; left:-24px;width: 306px; height: 103px; background-image: url(../img/math/title/icon-final.png);}
+.icon-final2{position:relative; top:3px; left:15px;width: 270px; height: 78px; background-image: url(../img/math/title/icon-final-1.png);}
+.icon-arrange{margin-right: 20px; width: 142px; height: 70px; background-image: url(../img/math/icon-arrange.png);}
+/* .icon-act{position:relative;width: 122px; height: 83px; background-image: url(../img/math/title/t309.png);} 
+.icon-act b{position:absolute;top:28px;right:0;font-size:24px;width:36px;height:36px;line-height: 1;text-align:center;color:#1b62ac;background:#fff;border:5px solid #1b62ac;border-radius: 100%} */
+.icon-reload{ width:68px; height:62px; background-image: url("../img/math/reload.png");}
+.icon-btn-prtr{ position: absolute; top: 0; right: 0; width: 162px;height: 80px; background-image: url(../img/math/btn-prtr.png);} 
+.icon-btn-draw{ position: absolute; top: 0; right: 0; width: 162px;height: 80px; background-image: url(../img/math/btn-draw.png);} 
+.icon-btn-tri-ruler{ position: absolute; top: 0; right: 0; width: 162px;height: 80px; background-image: url(../img/math/btn-tri-ruler.png);} 
+.icon-btn-angledraw{ position: absolute; top: 0; right: 0; width: 183px;height: 80px; background-image: url(../img/math/btn-angledraw.png);} 
+.icon-btn-ruler{ position: absolute; top: 0; right: 0; width: 162px;height: 80px; background-image: url(../img/math/btn-ruler.png);} 
+.icon-btn-measure{ position: absolute; top: 0; right: 0; width: 178px;height: 60px; background-image: url(../img/math/btn-measure.png);}
+
+.icon-decopanel{margin-right: 20px; width: 144px; height: 76px; background-image: url(../img/math/icon-decopanel.png);}
+.icon-checking{margin-right: 20px; width: 144px; height: 76px; background-image: url(../img/math/icon-checking.png);}
+.icon-rightanswer{margin-right: 20px; width: 170px; height:60px; background-image: url(../img/math/icon-rightanswer.png);}
+.icon-reading{margin-right: 20px; width:114px; height:59px; background-image: url(../img/math/icon-reading.png);}
+.icon-writing{margin-right: 20px; width:114px; height:59px; background-image: url(../img/math/icon-writing.png);}
+.icon-object-x{width: 40px;height: 40px;background: #90bcd3;border-radius: 3px;}
+.icon-object-x::before{content:"\26CC";color: #fff;font-size: 25px;line-height:40px;} 
+
+.icon-video-start{position: relative; top:12px; width:176px;height:69px;background-image: url(../img/math/title/icon-video01.png);margin-right:0px !important;}
+.icon-video-end{position: relative; top:12px; width:185px;height:69px;background-image: url(../img/math/title/icon-video02.png);margin-right:0px !important;}
+.icon-more{width:99px;height:83px;background-image: url(../img/math/title/icon-video03.png);margin-right:0px !important;}
+.icon-more2{width:99px;height:83px;background-image: url(../img/math/title/icon-video04.png);margin-right:0px !important;}
+.icon-intro-play{position: relative; top:12px; width:176px;height:69px;background-image: url(../img/math/title/icon-intro-play.png);margin-right:0px !important;}
+
+/* Icon - 익힘수학 */
+.icon-memory1{width: 173px; height: 90px; background-image: url(../img/math/title/icon-memory1.png);}
+.icon-memory2{width: 173px; height: 90px; background-image: url(../img/math/title/icon-memory2.png);}
+.icon-memory3{width: 292px; height: 90px; background-image: url(../img/math/title/icon-memory3.png);}
+.icon-cartoon1{width: 173px; height: 88px; background-image: url(../img/math/title/icon-cartoon1.png);}
+.icon-cartoon2{width: 173px; height: 88px; background-image: url(../img/math/title/icon-cartoon2.png);}
+.icon-question1{width: 99px; height: 60px;margin-top:-6px !important; background-image: url(../img/math/title/icon-question1.png);}
+.icon-question2{width: 99px; height: 60px;margin-top:-6px !important; background-image: url(../img/math/title/icon-question2.png);}
+.icon-studycheck1{width: 283px; height: 75px; background-image: url(../img/math/title/icon-studycheck1.png);}
+.icon-studycheck2{width: 283px; height: 75px; background-image: url(../img/math/title/icon-studycheck2.png);}
+
+/* 타이틀 - 문제 */
+.label-text{margin-right: 10px; font-size: 34px;font-family: jalnan,sans-serif; letter-spacing: 0; text-indent: 0;line-height: 1; color: #e74011;}
+.label-text b{display: inline-block; width: 50px;height: 50px; background:#e74011; text-align: center; line-height: 50px; border-radius: 100%; vertical-align: middle; color: #fff;}
+[class^=math-5] .label-text, [class^=math-6] .label-text { color: #713b91;}
+[class^=math-5] .label-text b, [class^=math-6] .label-text b { background: #713b91;}
+
+/* 교구 */
+.protractor,.ruler{display: none;position: absolute;z-index: 1}
+.protractor.active,.ruler.active{display: block}
+.protractor .icon-btn-point{visibility: visible !important;overflow: visible; position: absolute;}
+.protractor .icon-btn-point.active:before{ content:'';position: absolute;top:-6px;left:-6px;width:50px;height:50px;border:4px solid #f00;border-radius:50%;animation:flash 1s infinite both}
+.ruler img{width:100px}
+
+/* 추가 */ 
+.color-black{color:#000 !important}
+.color-pinkred{color:#ec008b !important}
+.color-green{color:#377c32 !important}
+.color-a-blue{color:#004eff !important}
+.color-lightgray{color:#e6e6e9 !important}
+.color-orange{color: #F05A22 !important}
+
+/*.font-misaeng .font-serif{font-size: 40px;font-weight: 700}
+.font-misaeng .font-sans{font-weight: 700}*/
+
+.font-misaeng{font-size: 35px !important;line-height:1.6}
+.font-misaeng.fs40{font-size: 28px !important}
+.font-misaeng.fs35{font-size: 23px !important}
+.font-misaeng.fs28{font-size: 18px !important}
+
+.font-misaeng .short-answer,
+.font-misaeng .short-answer>*{font-size: 35px !important;}
+.font-misaeng.fs40 .short-answer,
+.font-misaeng.fs40 .short-answer>*{font-size: 28px !important;}
+.font-misaeng.fs35 .short-answer,
+.font-misaeng.fs35 .short-answer>*{font-size: 23px !important;}
+.font-misaeng.fs28 .short-answer,
+.font-misaeng.fs28 .short-answer>*{font-size: 18px !important;}
+
+.position-absolute.font-misaeng{text-align: center;} 
+
+.tab button {width: 40px}
+.tab button.text{width: auto;border-radius:1em;padding:0 10px;}
+
+.badge-exp{display: inline-block; padding:10px 20px;background: #cc8a66;color:#fff;font-size:35px;font-weight:700;font-family: 'netmarble';border-radius:2rem;vertical-align: top}
+.badge-exp2{display: inline-block; padding:10px 20px;background: #729BC1;color:#fff;font-size:35px;font-weight:700;font-family: 'netmarble';border-radius:2rem;vertical-align: top}
+.badge-exp.bl {background: #d4e9f4;color:#58595b;}
+.badge-circle {display: inline-block; background: #fff;padding:0;color: #000;border:3px solid #e6e6e9;border-radius: 2rem;width: 50px;height: 50px;font-size: 35px;line-height:45px;text-align: center;}
+.badge-icon{display: inline-block; padding:8px 20px;background: #729bc1;color:#fff;font-size:35px;font-weight:500;font-family: 'netmarble';border-radius:15px;margin-top:-5px;}
+.badge-icon.badge-read{position: relative;margin-right: 25px;}
+.badge-icon.badge-read::before{content: "";position: absolute;top:-15px;right:-35px;width: 54px;height: 54px;background: url(../img/math/icon-read-symbol.png) no-repeat left top / contain;}
+.badge-example.inline{top:17px;}
+.after.fs40 .badge-example.inline{top:0;}
+.badge-ex-text{display: inline-block; margin-right:10px; width: 136px; height: 55px; line-height: 55px;text-align: center;background: url(../img/math/icon-ex-text.png) no-repeat center top/cover;font-family: 'netmarble'; margin-top:-5px;color:#637883;z-index: 9;}
+.badge-example.sm{width: 30px;height: 30px;font-size:25px !important;line-height: 30px;top:-6px;}
+.short-answer-block .after .position-relative.badge-example{top:-4px;}
+.bx-badge-ex .badge-ex-text{position:absolute;top:-25px;left:10%;}
+.bx-badge-ex{position: relative;overflow: visible;padding-top:20px}
+
+.math-expression{display:inline-block;position: relative;}
+.math-expression .badge-exp{vertical-align: top}
+
+.dot-indent{padding-left:30px;position: relative;}
+.dot-indent::before{content: '• '; position: absolute;left:0;}
+
+.icon-arrow-gray{width:42px; height: 42px; background-image: url(../img/math/icon-arrow-gray.png);background-size: cover}
+.icon-arrow-red{width:42px; height: 42px; background-image: url(../img/math/icon-arrow-red.png);background-size: cover}
+.icon-arrow-blue{width:42px; height: 42px; background-image: url(../img/math/icon-arrow-blue2.png);background-size: cover}
+.icon-arrow-right{transform:rotate(-90deg);} 
+.icon-arrow-small{width: 33px;height: 33px;background-size: cover}
+.icon-arrow-fullred{width:42px; height: 42px; background-image: url(../img/math/icon-arrow-fullred.png);background-size: cover}
+
+.invisible-area{position:relative;display: inline-block;height:73px;margin-right: 10px}
+.invisible-area::before{content:"";position: absolute;width:100%;height: 100%;left:0; border: 4px solid #e6e6e9;margin:0 6px -5px 4px; border-radius: 15px; background:#fff;}
+.invisible-area.d-inline-block{vertical-align: top} 
+.invisible-area.bx-b0::before{border:0 !important;}
+.invisible-area.fs40{height: 62px}
+.invisible-area.fs40::before{margin: 4px 6px -5px 4px}
+
+.invisible-area.frac1{height:77px; margin: -5px 6px -20px 0}
+.invisible-area.frac1.fs40{height: 62px; margin:-4px 6px -17px 0}
+.invisible-area.frac1::before{margin:-5px 6px 0 4px;}
+.invisible-area.frac1.fs40::before{margin:-3px 6px 0 4px;}
+
+/* badge */
+.num-circle{display: inline-block;margin-top:13px;margin-right: 20px;width: 60px;height: 60px; background: #94b0be;border-radius:50%;line-height:60px;font-family:'roboto',sans-serif;text-align: center;color: #fff !important;}
+.num-circle{margin-top:8px;}
+.num-circle.inline{margin-right: 0;}
+.badge-act,.badge-example-lg{margin-bottom:30px; padding: 10px; width: 178px;height: 60px; background: url(../img/math/badge-act.png) no-repeat 0 0 / 100% 100%;font-size: 34px !important; line-height:34px;text-align: center; color: #fff;}
+.badge-way{padding:10px 20px;margin-right:10px;border-radius:35px;font-family: 'netmarble', sans-serif !important;font-size:33px;font-weight:500;color:#fff;background:#cc8c65;}
+
+.no-num{width:20px;height:20px;margin:-10px 0 0 20px;vertical-align:middle;}  
+.bx-full-grey{background: #e6e6e9} 
+.bx-border-lightblue{border-color:#a2dada}
+.bx-border-full{border-color:#dbebe9;background: #dbebe9}
+.bx-border-beige{border-color:#fee5d1;}
+.bx-full-beige{border-color:#fee5d1;background: #fee5d1} 
+.bx-border-darkbeige{border-color:#d8d0c0;}
+.bx-full-darkbeige{border-color:#d8d0c0;background: #d8d0c0}
+.bx-full-pinkbeige{background-color: #fff4eb} 
+.bx-full-yellowbeige{background-color: #ffefc3} 
+.bx-full-lightbeige{background-color: #fff6df} 
+.bx-border-greyblue{border:6px solid #b0c0c9; border-radius: 30px; padding:20px 10px}
+.bx-lightsky{background-color: #e6f4f7} 
+.bx-lightgreen{background-color: #f1f6d6} 
+.bx-white{background-color: #fff} 
+.bx.inline {display: inline-block;border:0;padding:10px 50px;}
+
+.bx-sm-white{display: inline-block; width:45px;height:45px; margin:-8px 0 0 0;background: #fff;border-radius: 5px;vertical-align:middle }
+.bx-empty-blue{display: inline-block; width:60px;height:60px;margin:-8px 0 0 0;border-color:#6ccff6;border-radius: 10px;vertical-align:middle }
+
+.bx-card{display: inline-block; border-color: #d4ddf0;border-width: 5px; padding:0;border-radius:20px;margin:0 0.1em ;}
+.bx-card b{display: block;background: #d4ddf0;border:4px solid #fff;border-radius:15px;padding:.1em .2em;font-family:'NotoSerif','바탕체',serif;font-weight: 700}
+
+.bx-example-light{padding:15px 0;margin:10px 0;min-height: 110px;border: 4px dashed #ddc7b9;border-radius: 30px;box-shadow:none;background:#fff8ed;}
+.bx-border-top{border-top:4px solid #e6e6e9;}
+.bx-b0{border:0 !important;}
+.dot-right, .dot-left, .dot-center{position: relative;overflow:visible;}
+.dot-right::before{content: "·";font-size:80px;position: absolute;top:50%;right:-30px;margin-top:-5px;line-height: 0;font-family:'NotoSerif',serif;}
+.dot-left::before{content: "·";font-size:80px;position: absolute;top:50%;left:-30px;margin-top:-5px;line-height: 0;font-family:'NotoSerif',serif;}
+
+.bx.dot-center::after{content: "·";font-size:80px;position: absolute;top:50%;left:-30px;margin-top:-5px;line-height: 0;font-family:'NotoSerif',serif;}
+.bx.dot-center::before{content: "·";font-size:80px;position: absolute;top:50%;right:-30px;margin-top:-5px;line-height: 0;font-family:'NotoSerif',serif;}
+
+/* after box */
+.after-box{display: inline-block;padding: 0 10px;line-height: 1.4;border-radius: 11px;border:4px solid #e6e6e9;background: #fff;color:#004eff; font-size: 50px;}
+
+.choice.active [data-answer]+i {display: none;}
+[class^=math-3-] .choice-circle.active [data-answer]:checked+i,
+[class^=math-4-] .choice-circle.active [data-answer]:checked+i{display: block;border-color:#ec008b;width:4em;height:4em;top:-0.5em;left:50%;right:0;margin-left:-2em;border-radius: 3em;z-index: 2;}
+[class^=math-5-] .choice-circle.active [data-answer]:checked+i,
+[class^=math-6-] .choice-circle.active [data-answer]:checked+i{display: block; border-color:#ec008b;width:2.5em;height:2.5em;top:50% !important;left:50%; transform: translate(-50%, -50%); border-radius: 3em;z-index: 2;}
+
+.answer-circle{width:160px;height:70px;border-radius: 50%;border:5px solid transparent}
+.answer-circle.pink{border-color:#ec008b;}
+
+
+.short-answer.a-small{width: 80px;min-width: auto;}
+.short-answer.a-smaller{width: 60px;min-width: auto;}
+.short-answer.aa-smaller{width: 40px;min-width: auto;}
+.short-answer.aa-smaller .after{padding:0;}
+.short-answer.w100,
+.short-answer.w110,
+.short-answer.w120{min-width: auto;}
+.short-answer.short-answer-circle{ box-shadow:none;width:80px;height:80px;min-width: auto;border-radius: 100%}  
+.short-answer.short-answer-circle .after{line-height:72px}
+.short-answer.short-answer-clear{margin:0;}
+.short-answer.short-answer-clear.active{border-color: transparent;background: transparent} 
+.short-answer.short-answer-clear .before{box-shadow:none; }
+.short-answer.short-answer-bx0.active{border-color: #fff}
+.short-answer.short-answer-none{margin:0;border-color: transparent;background: transparent;box-shadow:none; } 
+.short-answer.short-answer-none .before{opacity: 0}
+
+/* .content{position: relative;margin:20px 0;padding-top:1px} */
+.tab-pane, .vertical-section {position: relative;}
+.section-num{margin:10px 0 60px;}
+/* .section-num .short-answer-block{margin-right:60px;}
+.section-num-circle .short-answer-block{margin-right:80px;} */
+.section-num .content-vertical .short-answer-block,
+.content-vertical .section-num .short-answer-block,
+.content-sc .short-answer-block{margin-right:0}
+.vertical-section>.section-num {margin:0}
+/* .content-sc 수학34에서 사용 */
+.content-sc .mCSB_scrollTools{margin-bottom: 50px;}
+.tab-pane .content-sc:not(.nt) .mCSB_scrollTools{margin-bottom:0;}
+.modal-body .content-sc.mr50 .icon-on-top {left:46.5%;}
+/* 문제 숫자 길 때 */
+.section-num.section-num-auto>.num{flex: 0 0 auto;max-width: none;margin-right: 10px;}
+
+/* table */
+.tb.v2{font-size: 50px}
+.tb th{padding:15px 10px;}
+.tb td{padding:15px 10px;}
+.tb .colspan-first{border-left:0;border-radius:0 !important}
+.tb .colspan-last{border-bottom:3px solid #c1dfdd}
+.tb tr:first-of-type>*:first-child{border-top-left-radius: 1rem }
+.tb tr:first-of-type>*:last-child{border-top-right-radius: 1rem}
+.tb th.rows,
+.tb tr:last-of-type>*:first-child{border-bottom-left-radius: 1rem }
+.tb tr:last-of-type>*:last-child{ border-bottom-right-radius: 1rem !important}
+.tb th.rows{border-bottom:3px solid #c1dfdd}
+.tb-black tr>*{border-color:#000;border-bottom: 0;} 
+.tb-black tbody tr:last-child>*{border-bottom:2px solid #000}
+.tb-black tr>*:last-child{border-radius:0 !important}
+.tb-black tr>*:first-child{border-radius:0 !important}
+th.dorm{border:0;background: none;overflow: hidden;}
+th.dorm span{display: inline-block; background: #c1dfdd;padding:20px 50px 80px  50px;border-radius: 50%;margin-bottom:-80px}
+.th-sep-bar{position: relative;overflow: hidden}
+.th-sep-bar::before{content: "";position: absolute;top: 50%;left: 50%;width: 100%;height: 3px;background-color: #c1dfdd;transform: translate(-50%, -50%) rotate(8deg)}
+.th-sep-bar b:first-child{position: absolute;bottom: 2px;left: 10px}
+.th-sep-bar b:last-child{position: absolute;top: 2px;right: 10px}
+
+.tb.sa tr>*{border:4px solid #d8d0c0 !important;border-radius: 1rem}
+.tb.sa tr>td{border-right-style:dashed !important;border-left-width:0 !important; }
+.tb.sa tr>td:first-child{border-left-width: 4px !important; }
+.tb.sa tr>td:last-child{border-right-style: solid !important; }
+.tb.sa td .badge-exp{margin-top:-50px;font-size:32px;}
+.tb.sa td .badge-exp+*{margin:-10px 0 10px 0;}
+
+.tb.sa2 tr>*{border:4px solid #95d2d9 !important;border-radius: 1rem}
+.tb.sa2 .badge-exp{background-color: #95d2d9;color:#000;}
+
+.img0{font-size:0;list-style: 0}
+
+/* 수식 */
+.math-table{letter-spacing:2rem;text-align: right;font-family:'NotoSerif','바탕체',serif} 
+.math-table.ls0{letter-spacing:0.5rem} 
+.math-table .ls0{letter-spacing:0rem} 
+.math-table .math-answer{border-top:3px solid #000;padding-top:10px;margin-top: 10px}   
+.math-table span.space{display: inline-block;width: 60px}
+.math-table span.font-sans{letter-spacing:1.4rem}
+
+.math-answer .short-answer{padding-left:1rem;margin-right:0px;}
+.math-answer .short-answer .before{letter-spacing:0}
+.math-answer .short-answer .after{margin-right: -1rem;font-family:'NotoSerif','바탕체',serif}
+.math-answer .short-answer.a-smaller{padding-left:0}
+.math-answer .short-answer.a-smaller .after{margin-right:0}
+
+.math-table.ls0 .short-answer{padding-left:10px;}
+.math-table.ls0 .short-answer .after{margin-right:0;}
+
+.math-table.type2{letter-spacing:0;line-height:1.7} 
+.math-table.type2{letter-spacing:0;line-height:1.7} 
+.math-table.type2 span.di{display: inline-block;width:88px;text-align: center;}
+.math-table.type2 .short-answer{padding-left: 0}
+.math-table.type2 .short-answer .after{margin-right:0}
+
+table.math{background: #f1f1f1;font-family:'NotoSerif','바탕체',serif !important}
+table.math tr>*{border: 3px solid #fff;border-bottom: 0;text-align: center;font-size: 40px;font-weight: 700;padding:10px 0}
+table.math tr>td{ height:85px}
+table.math tr.bt0 td{border-top:0;}
+table.math tr.ss td{background: #fff;height:70px;padding:5px 0;} /* 첨자,올림수 */
+table.math tr.ss .a-smaller{margin-top:10px;}
+table.math tr.ss .a-smaller *{font-size: 28px }
+table.math tr.ss .a-smaller .after{ font-family:'NotoSerif','바탕체',serif}
+table.math td{position: relative;}
+[class^=math-3-2] .math-figure-frame table.math td,
+[class^=math-4-1] .math-figure-frame table.math td{position: static;}
+table.math td .dot{position: absolute;left:-9px;bottom:6px}
+table.math .short-answer *{font-size: 40px}
+table.math .h100>td{height: 100px;padding:5px 0;}
+table.math .short-answer .after{font-family:'NotoSerif','바탕체',serif !important}
+
+.math-devided{letter-spacing:1rem} 
+.mark-divided{position: absolute;background:url(../img/math/mark-divided.png) no-repeat 0 0 / auto 100% ;}
+b.mark-div {background:url(../img/math/mark-divided.png) no-repeat 5px 0  / auto 100% ;}
+b.mark-div2 {display:inline-block; width:170px; background:url(../img/math/mark-divided2.png) no-repeat 0 0  / auto 100%; margin-bottom:5px; margin-left:5px}
+.short-answer .after b.mark-div2, b.mark-div2.answer  { background-image:url(../img/math/mark-divided2-b.png);}
+.short-answer .after b.mark-div2  { background-image:url(../img/math/mark-divided2-b.png);}
+.short-answer .math-table .math-answer {border-color: #004eff;}
+.math-slash{display: inline-block;position: relative;}
+.math-slash::before{content: ""; position: absolute;width:3px; height: 100%; text-align:center; top:5px;left: 50%; background:#ec008b; transform: rotate(45deg);}
+.math-slash.v2::before{height: 130%; top:-3px; transform: rotate(50deg);}
+/* .math-slash::before{content: "/"; position: absolute;width:100%;text-align:center; top:0;left: 0; color:#ec008b;} */
+.math-round-ss{font-size: 28px;font-family:'NotoSerif','바탕체',serif;color:#ec008b !important;margin-top:12px;}
+
+.math-table.division .math-answer.v2{border-top:0}
+.math-table.division .math-answer.v2 b{margin-left:-10px;padding-left:30px;background:url(../img/math/mark-divided.png) no-repeat left top;background-size:cover}
+.img-change .division:first-of-type{padding-top:70px}
+.division.center{margin:0 auto}
+.division.right{margin-left:auto}
+.pt65{padding-top:65px !important}
+.math-answer.color-a-blue{border-color:#004eff !important}
+.division .left{padding-right:57px}
+.division .left2{padding-right:124px}
+.division .left3{padding-right:111px}
+.division.fs40>*{font-size:40px}
+.division.lg .math-answer.color-a-blue{width:75%;margin-left:auto}
+
+tr.division td{position: relative !important;}
+tr.division td:first-child::before{position: absolute;display: block; content:"";background: url(../img/math/mark-divided.png) no-repeat left top/cover;z-index:1}/* height width top left - 속성은 개별 커스텀 ex)3-2/ppt/03_b_m_03.html */
+tr.division.v2 td:first-child::before{display: none;}
+tr.division.v2 td.division-mark::before{position: absolute;display: block; content:"";background: url(../img/math/mark-divided.png) no-repeat left top/100% 100%;z-index:1}
+b.mark-div.blue { background:url(../img/math/mark-divided-blue.png) no-repeat 5px 0  / auto 100% ;}
+td .in-line{position: absolute;width:100%;height:100%;left:0;top:0;background:#000}
+td .in-line.blue{background:#004eff !important;}
+.color-gray{color:#ddd !important}
+
+[data-math-table]{display: block;position: relative; margin:0 auto;justify-content:center;}
+[data-math-table]>div{display: none;position: absolute;} 
+[data-math-table]>div.active{display: block}
+[data-math-table]>div.icon{display: none;padding:10px;}
+[data-math-table]>div.default{display: block;z-index:0}
+[data-math-table].active{display: flex;width: 100% !important; margin:0 auto;}
+[data-math-table].active>div{display: block;position: relative}
+[data-math-table].active>div.icon{display: block}
+[data-math-table].active>div.default{display: none;position: absolute;} 
+[data-math-table] .icon-arrow-gray{transform:rotate(-90deg); width: 33px;height: 33px;background-size: cover} 
+
+.math-figure-frame{position: absolute;width: 100%; left:0;background: #fff;margin-left:0;margin-right: 0}
+.math-figure-frame [class^=col]{ padding-right: 0;padding-left: 0;}
+
+table.math.v2{background:#fff;font-family:'NotoSerif','바탕체',serif !important}
+table.math.v2 tr>*{border: 3px solid #e6e6e9;font-size: 50px;padding:5px }
+table.math.v2 tr>td:first-child{border-left: 0}
+table.math.v2 tr>td:last-child{border-right: 0}
+table.math.v2 tr:first-child>td{border-top: 0}
+table.math.v2 tr:last-child>td{border-bottom: 0} 
+table.math.v2 tr>td{min-width: 85px; height:85px} 
+table.math.v2.big tr>td{min-width: 100px; height:100px} 
+table.math.v2 .short-answer *{font-size: 50px}
+
+table.math tr.line td,
+table.math tr td.line{ background: #000 !important;height:3px !important;min-height:3px !important;overflow: hidden;padding:0;border:0;}
+table.math tr td.line.b0{ background: #fff !important}
+table.math tr.btm0>td{border-bottom: 0;}
+table.math tr.line + tr>td{border-top: 0; } 
+
+/* 점 간격 조정 */
+.math-table .ls-dot{letter-spacing:0.5rem;}
+.math-table .ls-01{letter-spacing:0.1rem;}
+.math-table .ls-n1{letter-spacing:-0.1rem;}
+.ls25{letter-spacing: 25px;}
+.ls10{letter-spacing: 10px;}
+
+/* 화살표 위 글자 */
+.arr-txt{position: relative;}
+.arr-txt img+*{position:absolute;left:50%;top:50%;transform: translate(-50%,-50%);background: #fff;margin-top:10px}
+
+.border-2{position: relative;}
+.border-2:before {content: "";position: absolute;left: 3px;top: 0;width: 3px;height: 100%;display: inline-block;background: #c1dfdd;}
+
+/* 분수 */
+.fraction-line{border-top:1px solid #000;margin-top:12px;margin-bottom:15px;}
+[class^=math-5] .fraction-line, 
+[class^=math-6] .fraction-line{border-top:3px solid #000;margin-bottom:5px;}
+.fraction-line+b{position:relative;top:-12px;}
+.fraction-line+.invisible-area{top:-4px;}
+
+#hd .fraction{line-height: 0.8}
+.fraction{display: inline-block;line-height:1em;vertical-align: middle;padding:0 5px 8px 5px;text-align: center;}
+[class^=math-5] .fraction,
+[class^=math-6] .fraction {padding:0;margin:-0.25em 5px 0.2em 5px;}
+.fraction span{display: inline-block;vertical-align: middle;font-family:'NotoSerif',serif !important;}
+.fraction>span:first-of-type{margin-top:-10px;}
+.fraction>span:last-of-type{border-top:2px solid #000;width: 100%;}
+[class^=math-5] .fraction>span:last-of-type,
+[class^=math-6] .fraction>span:last-of-type{border-top:3px solid #000;width: 100%;}
+[class^=math-5] #hd .fraction>span:last-of-type,
+[class^=math-6] #hd .fraction>span:last-of-type{border-top:2px solid #000;width: 100%;}
+.after:not(.color-black) .fraction span:last-child  {border-color: #004eff ;}
+.short-answer .after .fraction-auto {padding:10px 0}
+.color-a-blue .fraction span:last-child {border-color: #004eff ;}
+.color-pinkred .fraction span:last-child {border-color: #ec008b !important ;}
+
+/* 타이틀에 분수 있을 경우 위치 조정 */
+[class^=math-5] #hd .hd-frac,
+[class^=math-6] #hd .hd-frac{position: relative;top:-8px}
+
+.fraction-bar{border:4px solid #00b26a;}
+.fraction-bar [class^=col]{border-right:4px dashed #00b26a;}
+.fraction-bar [class^=col]:last-child{border-right:0}
+.fraction-bar .active{background: #c6eafb}
+
+.frac-wrap{display:inline-block;vertical-align: middle;position: relative;top:-10px;text-align: center;}
+[class^=math-5] .frac-wrap,
+[class^=math-6] .frac-wrap{top:-5px;}
+
+.ui-droppable-hover{background: #dfecec }
+.ui-rotatable-handle{height:50px;width:50px;cursor: pointer;background : url(../img/math/rotate.png) no-repeat 0 0 /contain;}
+
+.fs-big{display: inline-block; font-size: 1.8em; vertical-align: middle;line-height: 1;margin-top: -22px;font-weight:300 !important;font-family: 'NotoSerif',serif !important;} /* 분수괄호*/ 
+/*단위컬러 4학년*/
+.c5{background: #d6bbf7 !important;padding:5px 0;} /*pp*/
+.c4{background: #cff9d9 !important;padding:5px 0;} /*gr*/
+.c3{background: #d6e7ff !important;padding:5px 0;} /*bl*/
+.c2{background: #ffe2e6 !important;padding:5px 0;} /*pk*/
+.c1{background: #ffeac2 !important;padding:5px 0;} /*yl*/
+
+/*단위컬러 3학년*/
+.c-1{background: #b3d495 !important;padding:5px 0;} /*1 gr*/
+.c-10{background: #fcce86 !important;padding:5px 0;} /*10 org*/
+.c-100{background: #b7d5f1 !important;padding:5px 0;} /*100 bl*/ 
+.c-1000{background: #f9baa8 !important;padding:5px 0;} /*1000 pk*/
+.c-10000{background: #b5e0dd !important;padding:5px 0;} /*10000 Jade*/
+
+/*익힘책 light-green*/
+.bgc-lg{background-color: #f1f6d6}
+/* 익힘책 light-red */
+.bgc-lg2{background-color:#fbdfeb}
+/* 익힘책 light-orange */
+.bgc-lg3{background-color:#fff6e1}
+
+.bg-purple{background-color: #f3e9f8 !important;}
+.bg-ylwgreen{background-color: #d9ebbe !important;}
+.bg-mint{background: #e5f1f1 !important;}
+.bg-grn2{background-color: #c4de91 !important;}
+.bg-ylw2{background-color: #ffd886 !important;}
+.bg-org2{background-color: #fdca84 !important;}
+.bg-blue2{background-color: #a7cfee !important;}
+
+/* bx */
+.bx.bx-nm{position:relative;display:inline-block;padding:50px 80px 30px;border:4px solid #c7d2d7;overflow:inherit;text-align:center}
+.bx.bx-nm .bx-badge{position:absolute;top:-40px;left:50%;transform:translateX(-50%);display:inline-block;padding:10px 30px;border-radius:36px;font-weight:500;font-size:42px;font-family: 'NotoSans',sans-serif;background:#cce8f4}
+.bx.bx-nm .badge-exp{position:absolute;top:-40px;left:30px}
+
+/* 분수 */
+.bgc-fract{display:inline-block;padding:15px 35px;border-radius:13px;}
+.bgc-fract.bx{padding:15px 60px}
+.arw-fract-next{margin-bottom:85px !important}
+
+/* ○ □ △ 정답표시 */
+.anw-th-check>*{margin:0 30px}
+.anw-o{position:relative;width:105px;text-align:center}
+.anw-o b{position:absolute;top:-67px;left:50%;transform:translateX(-50%);font-size:170px}
+.anw-o.anw-sq b{top:-96px;font-size:200px}
+
+/*minju*/
+.sub-char::before{content:"「";margin-left:-20px}
+.sub-char::after{content:"」";margin-right:-15px}
+.color-white{color:#fff}
+
+.rred{border:1px solid red;}
+.answer-no-line.active{border:none}
+
+.badge-org{border-radius: 2rem;font-size:30px;color:#fff;background:#f77d1f;padding:.5rem 1rem}
+.char-reverse { transform: scale(-1,1)}
+
+/* 이 단원에서 배울 내용 */
+.note{display:flex;flex-wrap: wrap;justify-content:center;align-items: center;position: relative; width:1239px;height:699px;background: url(../img/math/board-1-v2.png) no-repeat 0 0 / 100% auto;margin-top:50px;padding:100px 100px 130px}
+.note li{margin:40px 0}
+
+/* 학습 목표 */
+.note.v2{display:flex;flex-wrap: wrap;align-items: center;justify-content: center; position: relative; width:1239px;height:701px;background: url(../img/math/board-2.png) no-repeat 0 0 / 100% auto;margin-top:50px;padding:100px 100px 130px 100px}
+
+/* 이번 시간에 배울 내용 */
+.board{position:relative;width:1202px;height:800px;background: url(../img/math/board-3.png) no-repeat 0 0 / 100% auto;margin:0 auto;padding:125px 60px 60px;}
+.board.v2{background-image: url(../img/math/board-3-v2.png);}
+.board::before{content:"";position:absolute;right:0;bottom:0;width:200px;height:294px;background: url(../img/math/board3-char.png) no-repeat 0 0 / auto 100%;z-index: 9;}
+.board.no-supply .board-cont {padding-top:90px}
+.board .board-tit{font-size: 70px;color: #fff;text-align: center;margin-bottom:107px;}
+.board .board-tit [class^="icon-"]{position: static;}
+.board .board-cont{min-height: 416px;text-align: center;color:#36270b;padding-top:40px}
+.board .board-cont.no-pair {padding-top:125px}
+.board .board-cont.no-pair .row {justify-content: center;}
+.board .page-math{border-right: 3px dashed #e8dfbc;}
+.board .page-num{position: static;color: #ff8323;margin-top: 20px;}
+.board .page-num::before{content:"";display: inline-block;width:25px;height:34px;background: url(../img/math/icon-page.png) no-repeat 50% 50% / auto 100%;margin-right:15px;}
+.board .page-math, .board .page-pair{text-align: center; padding:35px}
+.board.tit{ padding-top:100px}
+.board.tit.v3 { padding-top:87px}
+.board.tit .board-tit { font-size:60px;margin-bottom:70px}
+.board.tit .board-tit span { color: #36270b !important;}
+
+/* 다음 시간에 배울 내용 */
+.board.v3{background: url(../img/math/board-3-v3.png) no-repeat 0 0 / 100% auto;align-items: center;justify-content: center}
+.board.v3::before{content:"";position:absolute;right:0;bottom:0;width:210px;height:294px;background: url(../img/math/board4-char.png) no-repeat 0 0 / auto 100%;z-index: 9;}
+
+/* 준비물 뱃지 */
+.badge-char{display: inline-block;position:relative; padding:10px 30px 10px 35px;background: #8c5748;color:#fff;font-size:35px;font-weight:700;font-family: 'netmarble';border-radius:2rem;vertical-align: top}
+.badge-char::before{content:"";position: absolute;left:-20px;top:50%;transform: translateY(-50%);width:48px;height:52px;background: url(../img/math/badge-char.png) no-repeat 0 0 / auto 100%;}
+
+/* 준비물 박스 */
+.bx-supply{position:relative;padding:28px 20px 20px;margin-top: 30px;background: #f9e7e2;border-radius: 30px; text-align: center; font-size: 40px;}
+.bx-supply strong.badge-char{position: absolute;left:30px;top:-35px}
+.bx-supply p .badge-char{font-size: 30px;}
+
+/* video */
+.video-title {line-height: 79px; font-size:36px;}
+[class$=video-tit] {display: inline-block; margin-right: 10px; background-repeat:no-repeat; background-position:0 0; background-size:100% auto; text-align: center; font-size:28px; font-family: 'netmarble'; line-height: initial; color:#fff;}
+.start-video-tit{background:none; font-size:37px; color:#264f6b;}
+.start-video-tit b{display: inline-block; width: 107px; height: 72px; margin-right: 3px; padding: 10px 0 0; background: url(../img/common/icon-video01.png) no-repeat 0 0 / 100% auto; color: #fff; font-size: 35px;}
+.end-video-tit{background:none; font-size:37px; color:#264f6b;}
+.end-video-tit b{display: inline-block; width: 107px; height: 72px; margin-right: 3px; padding: 12px 0 0; background: url(../img/common/icon-video02.png) no-repeat 0 0 / 100% auto; color: #fff; font-size: 32px;}
+.icon-video {width: 75px;height: 60px;background:url(../img/common/icon-video.png) no-repeat 0 50%/100% auto; margin-top:-10px !important}
+.video-js{background: none}
+.video-js .vjs-tech{position: static;outline: 0 !important}
+.video-js .vjs-button > .vjs-icon-placeholder:before, .vjs-icon-volume-mute:before, .video-js .vjs-mute-control .vjs-icon-placeholder:before{content: '' !important}
+.video-js .vjs-big-play-button{font-size: 0;top: 50%;left: 50%;width: 130px;height: 130px;background: url(../img/common/btn-play.png) no-repeat 0 0/100% auto;margin: -65px;border-radius: 100%}
+.video-js .vjs-control-bar{bottom: 0;height: 90px;border-radius: 45px;background: #543a2f;-ms-flex-align: center;align-items: center;padding: 0 26px 0 30px}
+.video-js .vjs-control{width: auto;height: auto;background-repeat: no-repeat;background-size: 100% auto;display: block}
+.video-js .vjs-play-control, .video-js .vjs-stop-control{width: 64px;height: 66px;margin-right: 20px;background-image: url(../img/common/btn-play-sm.png)}
+.video-js .vjs-play-control:hover{background-image: url(../img/common/btn-play-sm_hover.png)}
+.video-js .vjs-play-control.vjs-playing{background-image: url(../img/common/btn-pause-sm.png)}
+.video-js .vjs-play-control.vjs-playing:hover{background-image: url(../img/common/btn-pause-sm_hover.png)}
+.video-js .vjs-stop-control{margin-right: 40px;background-image: url(../img/common/btn-stop-sm.png)}
+.video-js .vjs-stop-control:hover{background-image: url(../img/common/btn-stop-sm_hover.png)}
+.video-js .vjs-progress-control{min-width: 0;-ms-flex: 1;flex: 1;margin-right: 15px}
+.video-js .vjs-progress-control .vjs-progress-holder{margin: 0}
+.video-js .vjs-slider{background: #41291f url(../img/common/dot.png) repeat-x 0 50%/auto 3px;height: 12px;border-radius: 6px;outline: 0;box-shadow: none !important}
+.video-js .vjs-time-tooltip{top: -36px;padding: 2px 6px;line-height: 20px}
+.video-js .vjs-progress-control:hover .vjs-time-tooltip,.video-js .vjs-progress-control:hover .vjs-progress-holder:focus .vjs-time-tooltip{font-size: 14px}
+.video-js .vjs-load-progress{background: #332018 url(../img/common/dot.png) repeat-x 0 50%/auto 3px}
+.video-js .vjs-load-progress div{opacity: 0}
+.video-js .vjs-progress-holder .vjs-play-progress, .video-js .vjs-progress-holder .vjs-load-progress, .video-js .vjs-progress-holder .vjs-load-progress div{border-radius: 6px}
+.video-js .vjs-play-progress{background: linear-gradient(to right, #f87e1a 0%,#ffb937 100%)}
+.video-js .vjs-play-progress:before{content: '';width: 30px;height: 30px;background: url(../img/common/progress_icon.png) no-repeat 0 0/30px auto;top: -9px;right: -15px;box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.4);border-radius: 100%}
+.video-js .vjs-time-control{line-height: 13px;font-size: 18px;width: 55px;padding: 0;box-sizing: content-box}
+.video-js .vjs-current-time{text-align: right;padding-right: 10px}
+.video-js .vjs-duration{text-align: left;padding-left: 10px;border-left: 2px solid #23120c}
+.video-js .vjs-current-time{color: #ff791f}
+.video-js .vjs-remaining-time{display: none}
+.video-js .vjs-volume-panel.vjs-volume-panel-vertical{width: 56px;margin: 0 10px}
+.video-js .vjs-mute-control{width: 56px;height: 44px;background: url(../img/common/btn-vol.png) no-repeat 50% 50%/auto 26px;z-index: 1}
+.video-js .vjs-volume-panel:hover .vjs-mute-control{background-image: url(../img/common/btn-vol_hover.png)}
+.video-js .vjs-control-bar .vjs-volume-panel .vjs-volume-control.vjs-volume-vertical{position: absolute;background: rgba(65, 41, 31, 0.6);bottom: -9px;left: 0;width: 100%;padding: 18px 0 62px;border-radius: 20px;height: auto;-webkit-transition-duration: .2s;transition-duration: .2s}
+.vjs-user-inactive.vjs-playing .vjs-control-bar{-webkit-transition-duration: .4s;transition-duration: .4s}
+.vjs-volume-bar.vjs-slider-vertical{width: 6px;height: 120px;margin: 0 auto;background: #e9e9e9}
+.vjs-slider-vertical .vjs-volume-level{width: 100%;border-radius: 3px;background: #ffd616}
+.vjs-slider-vertical .vjs-volume-level:before{content: '';width: 14px;height: 14px;border-radius: 100%;background: #ffd616;top: -4px;left: -4px;box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3)}
+.video-js .vjs-fullscreen-control, .video-js .vjs-caption-control, .video-js .vjs-toggle-control{width: 150px;height: 50px;background-color: #41291f;border-radius: 25px;box-shadow: 0px 2px 0px 0px rgba(186, 186, 186, 0.24);text-shadow: none !important;line-height: 21px;margin-right: 10px}
+.video-js .vjs-fullscreen-control:hover, .video-js .vjs-caption-control:hover{background-color: #fff;color: #000}
+.vjs-fullscreen-control .vjs-icon-placeholder, .vjs-caption-control .vjs-icon-placeholder{display: inline-block;vertical-align: middle;width: 21px;height: 21px;background: url(../img/common/icon-full.png) no-repeat 0 0/auto 100%;margin-right: 8px}
+.vjs-caption-control .vjs-icon-placeholder{background-image: url(../img/common/caption_on.png);width: 29px;height: 25px}
+.vjs-caption-active .vjs-caption-control .vjs-icon-placeholder{background-image: url(../img/common/caption_off.png)}
+.vjs-fullscreen-control .vjs-control-text, .vjs-caption-control .vjs-control-text{font-size: 22px;display: inline-block;vertical-align: top;overflow: visible;width: auto;height: auto;position: static;clip: auto}
+.vjs-resize-manager{border: 0}
+.video-js .vjs-progress-control .vjs-play-progress .vjs-time-tooltip{display: none}
+.video-js .vjs-toggle-control{width: 50px;margin: 0;background-color: #241914}
+.video-js .vjs-toggle-control:hover{background-color: #ff791f}
+.vjs-toggle-control .vjs-icon-placeholder{display: block;width: 21px;height: 13px;background: url(../img/common/toggle.png) no-repeat 0 0/100% auto;margin: 0 auto;-webkit-transform: scaleY(-1);transform: scaleY(-1)}
+.video-js .vjs-toggle-control:hover{box-shadow: 0px 2px 0px 0px rgba(52, 35, 23, 0.24)}
+.vjs-toggle-control:hover .vjs-icon-placeholder{background-image: url(../img/common/toggle_on.png)}
+.vjs-toggle-inactive .vjs-toggle-control .vjs-icon-placeholder{-webkit-transform: none;transform: none}
+.video-caption{position: absolute;bottom: 105px;left: 0;right: 0;z-index: 0;font-size: 20px;text-align: center;display: none}
+.vjs-caption-active .video-caption{display: block}
+.vjs-user-inactive .video-caption{bottom: 15px}
+[data-toggle=video-caption]:not(.playing-video-script){display:none}
+.video-caption p{padding: 10px;background: rgba(0,0,0,.3);line-height: 1.3;display: inline-block;vertical-align: top;background: rgba(0,0,0,.7);color: #fff;font-weight: 500}
+.vjs-toggle-inactive .vjs-control-bar{background: none}
+.vjs-toggle-inactive .vjs-control-bar>.vjs-control:not(.vjs-toggle-control){opacity: 0;z-index: -1;pointer-events: none}
+.inline-movie{display: inline-block; vertical-align: top; position: relative;}
+.inline-movie>img{height: 756px;}
+.inline-movie video{position: absolute;top: 0;height: 100%;left: 50%;transform: translateX(-50%);opacity: 0;}
+.inline-movie.active video{opacity: 1}
+.inline-movie.active .btn-swiper-wrp{opacity: 0;}
+/*
+.inline-movie .icon-play{position: absolute;top: 0;left: 0;width: 100%;height: 100%;background: url(../img/math/btn-play.png) no-repeat 50% 50%/130px auto;z-index: 5}*/
+.inline-movie .icon-play{position: absolute; left: 50%; top: 45%; transform:translateX(-50%); width: 130px; height: 130px; background: url(../img/math/btn-play.png) no-repeat 0 0; background-size: 100%; z-index: 5}
+.inline-movie.active .icon-play{display: none}
+video[poster]{height:100%; width:100%; object-fit: cover;}
+
+/* Slider */
+[class^=swiper-button]{background: url(../img/math/swiper-button.png) no-repeat; background-size: auto 100%;}
+.swiper-button-disabled{background-image: url(../img/math/swiper-button-disabled.png)}
+.tab-button {position: absolute;width:500px;text-align: center;margin-left:-250px;bottom:9px;left:50%;z-index:99;}
+.tab-button [class^=swiper-button] {position:relative;margin:0 20px !important ; top:0 !important; width:80px;height:80px;}
+.slide [class^=swiper-button], .slide-pn-dot [class^=swiper-button]{width:73px; height:90px;margin:-45px -10px; background-image: url(../img/math/slide-arrow-orange.png)}
+.slide [class^=swiper-button], .slide-pn-dot [class^=swiper-button]{width:73px; height:90px;margin:-45px -10px; background-image: url(../img/math/slide-arrow-orange.png)}
+.slide .swiper-button-disabled, .slide-pn-dot .swiper-button-disabled {background-image: url(../img/math/slide-arrow-off.png)}
+.modal .slide-pn-dot .swiper-container{position: relative;overflow: unset;}
+.slide-pn-dot .swiper-pagination-bullet-active{width:45px;background:#f87f22}
+.slide-pn-dot img{display: block;margin:30px auto}
+.btn-modal-swipe{position: absolute;font-size: 0;line-height: 0;color: transparent}
+
+/* modal */
+.modal-body{position: relative;padding: 15px;border:8px solid #e9e9e9;border-radius:35px;height:932px;overflow: hidden;}
+.modal-body .mCSB_container {padding-right: 100px;}
+.modal-body .mCSB_scrollTools {right:27px; margin-top:45px}
+.modal-dialog{width:1363px;max-width:none;margin:0 auto;}
+.modal.modal-static .modal-dialog{transform:none}
+.modal-content{padding:8px;border-radius:35px;}
+.icon-close{position: absolute; top:30px;right:30px; z-index:99; width: 66px; height:73px; background-image:url(../img/math/icon-close.png)}
+.slide-pn-dot .swiper-pagination {margin:0 25px}
+.slide-pn-dot .swiper-container {padding-bottom:50px}
+
+/* 말풍선 */
+.bubble{display: block;position:relative;z-index:2;padding:10px 15px; text-align:center; word-break:keep-all; background: #fff;border:3px solid #9a9ba1; border-radius:54px;box-shadow:0 4px 8px rgba(0,0,0,.1);font-size:30px;font-family: 'netmarble', sans-serif !important;font-display:fallback; line-height: 1.2}
+.bubble p{text-align: center;}
+.bubble.auto:before{display: none}
+.bubble.text-justify{word-break: normal}
+.bubble:not(.active):not(.animate__animated){visibility: hidden;}
+.bubble:before, .bubble.auto>.before{content:'';position: absolute;width:42px;height:30px;margin:-1px 1px; background-image:url(../img/math/bubble-tale.png); background-position: 0 0; background-repeat: no-repeat; background-size: 100% auto;}
+.bubble.top:before, .bubble.top.auto>.before{bottom: calc(100% - 2px);left: 32px; transform:rotate(-180deg)}
+.bubble.bottom:before, .bubble.bottom.auto>.before{top:98%;right:32px;}
+.bubble.left:before, .bubble.left.auto>.before{bottom:calc(100% - 90px); right: calc(100% - 7px ); width: 30px; background-image:url(../img/math/bubble-tale-v2.png); transform:rotate(180deg) scale(-1,1)}
+.bubble.right:before, .bubble.right.auto>.before{bottom:calc(100% - 53px); left: calc(100% - 10px ); width: 30px; background-image:url(../img/math/bubble-tale-v2.png); transform: rotate(-180deg);}
+.bubble.top.reverse:before, .top.reverse.auto>.before{left: auto;right: 32px; transform:rotate(-180deg) scale(-1,1)}
+.bubble.bottom.reverse:before, .bottom.reverse.auto>.before{right:auto;left:32px;transform:scale(-1,1)}
+.bubble.left.reverse:before, .left.reverse.auto>.before{transform: none;}
+.bubble.right.reverse:before, .right.reverse.auto>.before{transform:rotate(360deg) scale(-1,1)}
+
+/* 탐구 타이틀 번호 추가 */
+.num-tit { display: inline-block;width:1.2em; height:1.2em; margin-bottom:5px; background:#f6a25e; border-radius: 10px; color:#fff; text-align: center; line-height: 1.2em; vertical-align: middle;}
+
+.label{font-size: 45px;text-align: center;border-radius: 15px;padding: 10px 20px;display: inline-block; color: initial;}
+
+/* 노란색 캡션 */
+.img-caption{position: absolute; top: 0; left: 0; padding: 4px 20px; background: #fff0c7; border-radius: 16px; font-size: 40px; white-space: nowrap;}
+.img-caption.balloon:after{content: ""; position: absolute; top: -19px; left: 50%; transform: translateX(-50%); border-top: 0px solid transparent; border-left: 12px solid transparent; border-right: 12px solid transparent; border-bottom: 20px solid #fff0c7;}
+
+/* 표 내 답 박스 테두리 적용*/
+.tb td > .short-answer.active {border-color: transparent;}
+
+
+/* 각도 표시 */
+.angle{display: inline-block;position: relative;font-family:'NotoSerif','바탕체',serif;}
+.angle::after{content:"°";display: inline-block;width:0.4em}
